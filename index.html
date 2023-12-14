@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manas Cypher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Manas Cypher</h1>
+    <label for="sentence">Enter your sentence:</label>
+    <textarea id="sentence" rows="4"></textarea>
+    <label for="password">Enter your password:</label>
+    <input type="text" id="password">
+    <label for="options">Choose an option:</label>
+    <select id="options">
+      <option value="encrypt">Encrypt</option>
+      <option value="decrypt">Decrypt</option>
+    </select>
+    <button onclick="process()">Go</button>
+    <label for="result">Result:</label>
+    <textarea id="result" rows="4" readonly></textarea>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
